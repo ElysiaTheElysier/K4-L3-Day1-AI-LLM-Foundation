@@ -112,7 +112,7 @@ def call_openai_mini(
         top_p=top_p,
         max_tokens=max_tokens,
     )
-    raise NotImplementedError("Implement call_openai_mini")
+
 
 
 
@@ -515,8 +515,8 @@ if __name__ == "__main__":
 
     print("\n=== Trợ lý CLI (gõ 'quit' để thoát) ===")
     stats = run_assistant(
-        persona="Bạn là trợ giảng thân thiện của khóa AI, "
-                "trả lời ngắn gọn bằng tiếng Việt.",
+        persona="Bạn là trợ giảng lập trình thân thiện của khóa AI. "
+                "Hãy giải thích ngắn gọn, dễ hiểu và trả lời hoàn toàn bằng tiếng Việt có kèm ví dụ code minh họa ngắn.",
     )
     print("\n--- Thống kê phiên chat ---")
     for key, value in stats.items():

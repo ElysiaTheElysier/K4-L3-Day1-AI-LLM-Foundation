@@ -112,7 +112,7 @@ def call_openai_mini(
         top_p=top_p,
         max_tokens=max_tokens,
     )
-    raise NotImplementedError("Implement call_openai_mini")
+
 
 
 
